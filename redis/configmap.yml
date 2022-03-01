@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap
+  
+data:
+  PORT: "8079"
+  REDIS_HOST: "redis-leader.redis"
+  REDIS_PORT: "6379"
+  
+
+
+
+
+
+
+
